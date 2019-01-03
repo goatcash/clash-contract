@@ -33,7 +33,7 @@ contract('GoatClash', function(accounts) {
 	web3.eth.getTxReceipt = getTxReceipt;
 
 	// Local Ganache private key for secretSigner account
-	const privateKey = "a3abc3cdad875e86ca60dfff15cc889c5817db86489f7d4ed3ffd3f9b7a80b71";
+	const privateKey = "[removed key even though it's only used locally in Ganache]";
 
 	beforeEach(async function() {
 		this.token = await GoatCash.new({ from: owner });
