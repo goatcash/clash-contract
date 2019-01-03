@@ -1,0 +1,32 @@
+{
+  "name": "clash-contracts",
+  "version": "1.0.0",
+  "description": "Goat Clash Solidity smart contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "openzeppelin-solidity": "^2.0.0",
+    "web3-utils": "^1.0.0-beta.36",
+    "ethereumjs-util": "^6.0.0",
+    "truffle": "^4.1.14",
+    "truffle-contract": "^1.1.8"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goatcash/clash-contracts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goatcash/clash-contracts/issues"
+  },
+  "homepage": "https://github.com/goatcash/clash-contracts#readme"
+}
